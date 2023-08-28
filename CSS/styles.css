@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Libre+Franklin:wght@300;700;900&family=Montserrat:wght@100;300;400;500;800&family=Raleway:wght@200;400;600&display=swap');
+/*
+font-family: 'DM Serif Display', serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background-color: #f6f4f2;
+    font-family: 'Montserrat', sans-serif;
+}
+#header{
+    display: flex;
+    padding-left: 55%;
+}
+.nav-link{
+    color: black;
+}
+.fondo{
+    max-width: 1420px;
+    height: 25%;
+}
+@media all and (max-width: 768px){
+    .fondo{
+        width: auto;
+        height: 5%;
+    }
+}
+.contenedor2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 40px;
+    margin-top: 1em;
+    border-top: solid 1px black;
+}
+@media all and (max-width: 768px){
+	.contenedor2{
+		grid-template-columns: auto;
+        margin: 0.5em;
+	}
+}
+.contenedor2__box{
+ 	margin-top: 2rem;
+ 	padding-left: 1rem;
+ 	transition: all 250ms;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    text-align: center;
+}
+.contenedor2__box:hover{
+    transform: scale(1.1);
+}
+.boton{
+    border: #4fb7f7 solid 1px;
+    padding: 0.5em;
+}
+.dibujo{
+    width: 8%;
+}
+/* CONTACTO */
+#contact{
+    border-top: solid 1px black;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+#contact .btn-mio {
+    min-width: 130px;
+    height: 40px;
+    padding: 5px 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #000;
+    color: #252440;
+    background: transparent;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  
+  #contact .btn-mio:hover:after {
+    top: 0;
+    left: 0;
+  }
+  
+  #contact .btn-mio:after {
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    transition: 0.2s;
+    background-color: #4fb7f7;
+  }
+  
+  #contact .redes img {
+    max-height: 35px;
+  }
+  
+  #contact .redes a {
+    text-decoration: none;
+    color: #4fb7f7;
+  }
+  
+  #contact h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  #contact .formulario {
+    font-family: "Raleway", sans-serif;
+    color: #444444;
+    font-weight: 700;
+  }
+  
+  #contact .formulario .form-control {
+    border: 1px solid #4fb7f7;
+  }
+  .img-fluid{
+    margin-right: 0.5em;
+  }
