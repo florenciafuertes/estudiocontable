@@ -1,1 +1,1 @@
-Este proyecto no es un caso real. Puede verse en: 
+Este proyecto no es un caso real. Puede verse en: https://florenciafuertes.github.io/estudiocontable/
