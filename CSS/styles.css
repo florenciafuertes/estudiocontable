@@ -27,8 +27,8 @@ body{
 }
 @media all and (max-width: 768px){
     .fondo{
-        width: auto;
-        height: 5%;
+        width: 1px;
+        height: 1%;
     }
 }
 .contenedor2{
